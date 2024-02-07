@@ -1,0 +1,38 @@
+      body {
+            font-family: 'Hatter', sans-serif;
+            background: linear-gradient(135deg, #222, #111, #333);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+        }
+		.text {
+			font-size: 48px;
+			color: #fff;
+			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+			animation: fadeInUp 1s ease;
+			font-family: 'Cursive', sans-serif; 
+			letter-spacing: 2px; 
+		}
+
+        .btn-group {
+            margin-top: 20px;
+            animation: fadeIn 1s ease;
+        }
+
+        .btn {
+            font-size: 20px;
+            border-radius: 25px;
+            padding: 10px 30px;
+            margin: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #444;
+        }

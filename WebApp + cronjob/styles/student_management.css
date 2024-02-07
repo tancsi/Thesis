@@ -1,0 +1,366 @@
+body {
+    background-color: #333; 
+    color: #fff; 
+}
+
+.navbar-toggler-icon {
+    background-color: white !important;
+    opacity: 0.8;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-light .navbar-toggler {
+    color: #fff;
+}
+
+
+.navbar-nav .nav-link {
+    color: #ddd !important; 
+    font-weight: bold;
+    margin: 0 10px;
+    transition: color 0.3s, transform 0.3s; 
+    transform-origin: center bottom;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+    opacity: 0.8;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff !important; 
+    transform: scale(1.05) translateY(-2px); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+    background-color: transparent !important;
+    opacity: 1;
+}
+
+.nav-link.no-hover {
+    pointer-events: none; 
+}
+
+.nav-link.no-hover:hover {
+    color: #ddd !important;
+    transform: none;
+    text-shadow: none;
+    background-color: transparent !important;
+    box-shadow: none;
+}
+
+.delimiter {
+    content: "";
+    display: inline-block;
+    height: 100%; 
+    width: 1px; 
+    background-color: #fff; 
+    margin: 0 10px; 
+}
+
+.content {
+    background-color: #111; 
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto; 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); 
+    max-width: 1400px; 
+}
+
+
+.navbar-toggler-icon {
+    background-color: #fff; 
+    border: 2px solid #fff; 
+}
+
+.navbar-light .navbar-toggler {
+    color: #fff; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff !important;
+    background-color: #007BFF;
+}
+
+.student-table table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    color: #333; 
+    margin-bottom: 20px;
+    background-color: #fff; 
+}
+
+.student-table th,
+.student-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; 
+}
+
+.student-table th {
+    background-color: #007BFF; 
+    color: #fff; 
+}
+
+.student-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+
+.student-table td:first-child {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.student-id {
+    color: #007BFF; 
+    font-weight: normal;
+}
+
+
+.teacher-info {
+    color: #007BFF; /
+    font-weight: normal;
+}
+
+
+.student-id::before,
+.student-id::after,
+.teacher-info::before,
+.teacher-info::after {
+    content: "{";
+    margin: 0 5px;
+}
+.search-bar {
+    display: inline-block; 
+    margin-right: 10px; 
+    background-color: #f2f2f2; 
+    border: none; 
+    border-radius: 20px; 
+    padding: 10px 20px; 
+	margin-bottom:20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    font-size: 16px; 
+    color: #333; 
+    transition: background-color 0.3s, box-shadow 0.3s; 
+}
+
+
+.search-bar:hover {
+    background-color: #e0e0e0; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.search-bar input[type="text"] {
+    border: none;
+    outline: none;
+    background: transparent; 
+}
+.filter-container {
+    display: flex;
+    align-items: center;
+}
+
+.date-filter {
+    display: flex;
+    align-items: center;
+    margin-left: 20px; 
+}
+
+.date-filter label {
+    margin-right: 10px; 
+}
+
+.date-filter input {
+    margin-right: 10px; 
+}
+
+.date-filter button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.date-filter button:hover {
+    background-color: #0056b3;
+}
+.active-filter label {
+    margin-right: 10px; 
+    margin-left: 20px; 
+    font-size: 16px; 
+    color: #f4f4f4; 
+}
+
+.active-filter select {
+    border: 1px solid #ccc; 
+    background-color: #f4f4f4; 
+    font-size: 16px; 
+    color: #555; 
+    outline: none; 
+    cursor: pointer; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+}
+
+.active-filter select::after {
+    content: '\25BC'; 
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none; 
+}
+
+.reset-filters button {
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+	margin-left:80px;
+}
+
+.reset-filters button:hover {
+    background-color: #0056b3;
+}
+
+.add-student-form {
+    text-align: center;
+    margin-top: 140px;
+    max-width: 400px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.add-student-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+}
+
+.add-student-form input[type="text"],
+.add-student-form input[type="radio"] {
+    width: calc(100% - 20px); 
+    padding: 2px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    background-color: #444;
+    color: #fff;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.add-student-form input[type="radio"] {
+    margin-right: 10px;
+}
+
+.add-student-form input[type="text"]:hover,
+.add-student-form input[type="text"]:focus,
+.add-student-form input[type="radio"]:hover,
+.add-student-form input[type="radio"]:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+    outline: none;
+}
+
+.add-student-form button {
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-student-form button:hover {
+    background-color: #2980b9;
+}
+
+.select2-container--default .select2-selection--multiple {
+    background-color: #f1f1f1; 
+    color: #333; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+.select2-container--default .select2-search--inline .select2-search__field {
+    color: #333; 
+}
+
+.select2-container--default .select2-results__option {
+    color: #333; 
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #4CAF50; 
+    color: #333; 
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color: #333; 
+}
+
+.assign-student-form {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.assign-student-form h2 {
+    margin-bottom: 20px;
+}
+
+.assign-student-form .form-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.assign-student-form .form-group label {
+    margin-right: 10px;
+}
+
+.assign-student-form .form-group select {
+    width: 400px;
+    margin-right: 10px; 
+}
+
+.assign-student-form #assign-button {
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.assign-student-form #assign-button:hover {
+    background-color: #0056b3;
+}
+
+.assign-student-form #remove-assign-button {
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.assign-student-form #remove-assign-button:hover {
+    background-color: #0056b3;
+}

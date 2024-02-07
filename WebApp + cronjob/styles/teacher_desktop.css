@@ -1,0 +1,124 @@
+
+body {
+    background-color: #333; 
+    color: #fff; 
+}
+
+.navbar-toggler-icon {
+    background-color:white!important;
+	opacity:0.8;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-light .navbar-toggler {
+    color: #fff; 
+}
+
+
+.navbar-nav .nav-link {
+    color: #ddd !important; 
+    font-weight: bold;
+    margin: 0 10px;
+    transition: color 0.3s, transform 0.3s; 
+    transform-origin: center bottom;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+	opacity:0.8;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff !important; 
+    transform: scale(1.05) translateY(-2px); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+    background-color: transparent !important; 
+	opacity:1;
+}
+.nav-link.no-hover {
+    pointer-events: none; 
+}
+.nav-link.no-hover:hover {
+    color: #ddd !important;
+    transform: none;
+    text-shadow: none;
+    background-color: transparent !important;
+    box-shadow: none;
+}
+.delimiter {
+    content: "";
+    display: inline-block;
+    height: 100%; 
+    width: 1px; 
+    background-color: #fff; 
+    margin: 0 10px; 
+}
+
+.content {
+    background-color: #111; 
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); 
+	max-width: 1400px;
+	position:relative;
+}
+
+
+.navbar-toggler-icon {
+    background-color: #fff; 
+    border: 2px solid #fff; 
+}
+
+.navbar-light .navbar-toggler {
+    color: #fff; 
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: #fff !important;
+    background-color: #007BFF; 
+}
+.select2-container--default .select2-selection--single {
+    background-color: #f1f1f1 !important;
+    color: #333 !important;
+    border: 1px solid #ccc !important;
+    border-radius: 5px !important;
+}
+
+.select2-container--default .select2-search--inline .select2-search__field {
+    color: #333 !important;
+}
+
+.select2-container--default .select2-results__option {
+    color: #333 !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__choice {
+    background-color: #4CAF50 !important;
+    color: #333 !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__choice__remove {
+    color: #333 !important;
+}
+h1{
+	margin-bottom:70px;
+}
+.form-control {
+    width: 100%;
+}
+#map { position: absolute; bottom: 0; top:0; left:50%; width:70%; transform:translateX(-50%) }
+.mapboxgl-popup{
+	color:#333!important;
+}
+.mapboxgl-popup-content h3{
+	  font-size: 1rem;
+}
+.text-gray-800 {
+  color: #5a5c69 !important;
+}
+.h-100{
+	text-align:center;
+}

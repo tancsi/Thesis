@@ -1,0 +1,122 @@
+
+body {
+    font-family: 'Hatter', sans-serif;
+    background: linear-gradient(135deg, #222, #111, #333);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-wrapper {
+    background-color: #333;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+	position: relative;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.text {
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: fadeInUp 1s ease;
+    font-family: 'Cursive', sans-serif;
+    letter-spacing: 2px;
+}
+
+.form-group {
+    margin: 30px auto;
+    max-width: 400px;
+}
+
+.input-group-prepend .input-group-text {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+}
+
+.form-control {
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    background-color: #444;
+    color: #fff;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:hover,
+.form-control:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+    outline: none;
+}
+
+.btn-group {
+    margin-top: 30px;
+    animation: fadeIn 1s ease;
+}
+
+.btn {
+    font-size: 18px;
+    border-radius: 10px !important;
+    padding: 10px 30px !important;
+    margin: 15px !important;
+    background-color: #3498db !important;
+    color: #fff !important;
+    border: none !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s ease !important;
+}
+
+.btn:hover {
+    background-color: #2980b9 !important;
+}
+
+#loginForm {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.error-message {
+    font-size: 16px;
+    color: #ff4d4d;
+    padding: 10px;
+    margin-top: 15px;
+    display: none;
+}
+
+.error-message.show {
+    display: block;
+}
+.back-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-decoration: none !important;
+    font-size: 20px;
+    color: #3498db;
+    display: flex;
+    align-items: center;
+	cursor:pointer;
+}
+
+.back-link i {
+    margin-right: 5px;
+}
